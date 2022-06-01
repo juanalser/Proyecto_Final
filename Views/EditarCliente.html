@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/bootstrap/dist/css/bootstrap.min.css">
+    <script defer src="/Js/main.js"></script>
+    <script defer src="/Js/Cliente/EditarCliente.js"></script>
+    <title>Listado Cliente</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary mb-3">
+        <div class="container-fluid">
+            <a class="navbar-brand" id="a-nombre" href="">Listar Cliente</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="Interacciones">Interacciones</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section>
+        <article class="Form">
+            <h2 class="form-title"></h2>
+            <main class="container">
+                <section class="row">
+                    <article class="Form">
+                        <div class="card">
+                            <div class="card-header">
+                              Editar Cliente
+                            </div>
+                            <div class="card-body mb-3">
+                                <form class="cliente-form">
+                                    <input type="hidden" id="id" name="id">
+                            <div class="mb-3">
+                                <div class="form-text">Ingresar el nombre del cliente</div>
+                                <input type="text" id="Name" placeholder="Nombre" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <div class="form-text">Ingresar el correo electronico del cliente</div>
+                                <input type="text" id="Email" placeholder="Correo Electronico" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <div class="form-text">Ingresar la direccion del cliente</div>
+                                <input type="text" id="Address" placeholder="Direccion" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                    <div class="form-text">Ingresar la fecha del registro</div>
+                                    <input type="date" id="CreatedAt" placeholder="Fecha de creación" class="form-control" required>
+                                 </div>
+                                <br>
+                                <input type="submit" id="enviar" class="btn btn-primary" value="Enviar">
+                            </div>
+                        </form>
+                    </article>
+                </section>
+            </main>
+        </article>
+    </section>
+</body>
+</html>

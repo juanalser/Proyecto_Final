@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/bootstrap/dist/css/bootstrap.min.css">
+    <script defer src="/Js/main.js"></script>
+    <script defer src="/Js/Interacciones/EditarInteraccion.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary mb-3">
+        <div class="container-fluid">
+          <a class="navbar-brand" aria-current="page" id="a-Listar-Clientes">Interacciones</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </nav>
+    <h1 class="display-6 text-center m-4">Editar interacción</h1>
+    <main class="container">
+        <section class="row">
+            <article class="Form">
+                <div class="card">
+                    <div class="card-header text-center">
+                      Interacción
+                    </div>
+                    <div class="card-body mb-3">
+                        <form class="interaction-form">
+                    <div class="mb-3">
+                        <div class="form-text"></div>
+                        <input type="hidden" id="id" placeholder="Nombre" class="form-control" required>
+                    </div>        
+                    <div class="mb-3">
+                        <div class="form-text">Ingresar nota </div>
+                        <input type="textarea" id="Note" placeholder="Agregar nota" class="form-control" required>
+                    </div>
+                    <div class="mb-3">
+                        <div class="form-text">Ingresar la fecha del registro</div>
+                        <input type="date" id="CreatedAt" placeholder="Fecha de creación" class="form-control" required>
+                     </div>
+                    <div class="mb-3">
+                        <div class="form-text"></div>
+                        <input type="hidden" id="User" placeholder="Usuarios" class="form-control" required>
+                        
+                    </div>
+                    <div class="mb-3">
+                        <div class="form-text"></div>
+                        <select id="Customer" placeholder="Clientes" class="form-select" aria-label="Cliente seleccionado" >
+                            <option selected style="color: gray">---Seleccione un Cliente---</option>
+                          </select>
+                    </div>
+                        <!-- <input type="submit" id="enviar" class="btn btn-primary" value="enviar"> -->
+                    </div>
+                </form>
+            </article>
+        </section>
+    </main>
+</body>
+</html>

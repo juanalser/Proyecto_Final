@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/bootstrap/dist/css/bootstrap.min.css">
+    <script defer src="/Js/main.js"></script>
+    <script defer src="/Js/Security/EditProfile.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary mb-3">
+        <div class="container-fluid">
+            <a class="navbar-brand" id="a-nombre" href="">Editar Cliente</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="">Usuarios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Interacciones">Interacciones</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section>
+        <article class="Form">
+            <h2 class="form-title"></h2>
+            <main class="container">
+                <section class="row">
+                    <article class="Form">
+                        <div class="card">
+                            <div class="card-header">
+                              Editar Usuario
+                            </div>
+                            <div class="card-body mb-3">
+                                <form class="user-editform">
+                                    <input type="hidden" id="id" name="id">
+                            <div class="mb-3">
+                                <div class="form-text">Ingresar el nombre del Usuario</div>
+                                <input type="text" id="Name" placeholder="Nombre" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <div class="form-text">Ingresar el nombre de usuario</div>
+                                <input type="text" id="UserName" placeholder="Nombre de Usuario" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <div class="form-text">Ingresar la contraseña</div>
+                                <input type="text" id="Password" placeholder="Contraseña" class="form-control" required>
+                            </div>
+                                <br>
+                                <input type="submit" id="enviar" class="btn btn-primary" value="Guardar">
+                            </div>
+                        </form>
+                    </article>
+                </section>
+            </main>
+        </article>
+    </section>
+</body>
+</html>

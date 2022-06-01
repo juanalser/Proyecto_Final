@@ -1,0 +1,133 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "Customer": [
+    {
+      "name": "Juan Antonio Seguras",
+      "email": "JuanAnt@gmail.com",
+      "address": "Calle Rodolfo # 2000",
+      "createdAt": "2022-01-12",
+      "id": 1
+    },
+    {
+      "name": "Pedro jose Garcia",
+      "email": "cecbanahi@gmail.com",
+      "address": "Calle 15 N.30",
+      "createdAt": "2022-05-15",
+      "id": 2
+    },
+    {
+      "name": "Lucía Fernando",
+      "email": "Lucifer@gmail.com",
+      "address": "Villa Maria, Calle Ogando, #13",
+      "createdAt": "2022-04-30",
+      "id": 3
+    },
+    {
+      "name": "Luis Fernando",
+      "email": "LuisFer@gmail.com",
+      "address": "Mi casa",
+      "createdAt": "2022-06-04",
+      "id": 4
+    }
+  ],
+  "User": [
+    {
+      "Name": "Juana",
+      "UserName": "Peli321",
+      "Password": "Peliteamo",
+      "id": 1
+    },
+    {
+      "Name": "Antonio",
+      "UserName": "Albertoj",
+      "Password": "juanal11",
+      "id": 2
+    },
+    {
+      "Name": "Pedro Garcia",
+      "UserName": "admin",
+      "Password": "admin123",
+      "id": 3
+    },
+    {
+      "Name": "Carlos",
+      "UserName": "Carlos@gmail.com",
+      "Password": "Carlos1234",
+      "id": 4
+    },
+    {
+      "Name": "Alfonso Gutierres",
+      "UserName": "Juang@gmail.com",
+      "Password": "juanal12",
+      "id": 5
+    },
+    {
+      "Name": "Joselujan",
+      "UserName": "Joseluja2@gmail.com",
+      "Password": "juanal12",
+      "id": 6
+    }
+  ],
+  "Interaction": [
+    {
+      "note": "Helado con Antonios",
+      "createdAt": "2022-06-11",
+      "user": {
+        "Name": "Cristina",
+        "UserName": "Carlos@gmail.com",
+        "Password": "Carlos1234",
+        "id": 4
+      },
+      "customer": {
+        "name": "Lucía Fernando",
+        "email": "Lucifer@gmail.com",
+        "address": "Villa Maria, Calle Ogando, #13",
+        "createdAt": "2022-04-30",
+        "id": 3
+      },
+      "id": 3
+    },
+    {
+      "note": "Tomar Ron cola",
+      "createdAt": "2022-06-05",
+      "user": {
+        "Name": "Joselujan",
+        "UserName": "Joseluja2@gmail.com",
+        "Password": "juanal12",
+        "id": 6
+      },
+      "customer": {
+        "name": "Pedro jose Garcia",
+        "email": "cecbanahi@gmail.com",
+        "address": "Calle 15 N.30",
+        "createdAt": "2022-05-15",
+        "id": 2
+      },
+      "id": 5
+    },
+    {
+      "note": "Quedar para cenar",
+      "createdAt": "2022-05-14",
+      "user": {
+        "Name": "Juana",
+        "UserName": "Peli321",
+        "Password": "Peliteamo",
+        "id": 1
+      },
+      "customer": {
+        "name": "Pedro jose Garcia",
+        "email": "cecbanahi@gmail.com",
+        "address": "Calle 15 N.30",
+        "createdAt": "2022-05-15",
+        "id": 2
+      },
+      "id": 6
+    }
+  ]
+}
